@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NT IM Login</title>
+    <title>Login</title>
     <link rel="stylesheet" href="style.css">
     <script>
         function togglePassword() {
@@ -17,7 +17,7 @@
     </script>
 </head>
 <body>
-    <hr>
+    <div class="horizontal-line"></div>
 
     <div class="container">
         <div class="logo">
@@ -27,7 +27,7 @@
             <h1>Passwort eingeben</h1>
             <input type="password" id="password" name="password" required>
             <button type="button" class="show-password" onclick="togglePassword()"><img width="30px" src="icons/passanzeigen.png" alt=""></button>
-            <button type="submit">Bestätigen</button>
+            <button type="submit"><a href="startseite.html">Bestätigen</a></button>
         </form>
     </div>
 </body>
